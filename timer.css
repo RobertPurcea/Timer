@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css?family=Aref+Ruqaa");
+body, div, p {
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  box-sizing: border-box; }
+
+html {
+  font-family: "Aref Ruqaa", serif;
+  background-image: repeating-linear-gradient(90deg, pink, pink 30px, #f2671f 30px, #f2671f 60px);
+  min-height: 100vh; }
+
+body {
+  color: white;
+  font-size: 0px;
+  font-weight: bold; }
+  body h1 {
+    text-align: center;
+    font-size: 8vmin;
+    color: #160a47; }
+
+#left, #right, #middle {
+  width: 50%;
+  display: inline-block;
+  font-size: 5vmin;
+  text-align: center; }
+
+#left p, #right p {
+  color: #60047a; }
+
+button {
+  font-size: 5vmin;
+  width: 7vmin;
+  background: transparent;
+  cursor: pointer;
+  border: none;
+  color: #60047a; }
+
+div p {
+  margin-bottom: 4vmin; }
+
+#middle button:hover {
+  color: #c91b26; }
+
+#middle {
+  margin: auto;
+  width: 50%;
+  display: block;
+  margin-top: 5vmin;
+  font-size: 7vmin;
+  position: relative;
+  top: -5vmin; }
+
+#middle button {
+  width: auto;
+  display: block;
+  margin: auto;
+  margin-top: 5vmin;
+  font-weight: bold; }
+
+#reset {
+  margin-top: 5vmin;
+  font-weight: bold; }
+
+#middle span {
+  margin-top: 3vmin;
+  display: block; }
+
+button:active, button:focus {
+  outline: none; }
+
+span {
+  color: #9c0f5f; }
+
+#bar {
+  background-color: #f2671f;
+  width: 60%;
+  height: 40px;
+  position: relative;
+  display: block;
+  margin: auto;
+  box-shadow: 0 2px 5px 1px rgba(0, 0, 0, 0.5) inset;
+  border-radius: 10px;
+  margin-top: 100px; }
+
+#progress {
+  height: 100%;
+  width: 0%;
+  background-image: repeating-linear-gradient(45deg, #c91b26, #c91b26 20px, #60047a 20px, #60047a 40px);
+  position: relative;
+  top: 50%;
+  transform: translate(0, -50%);
+  border-radius: 10px; }
+
+#progressNumber {
+  position: absolute;
+  font-size: 4vmin;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -55%);
+  color: #160a47; }
+
+/*# sourceMappingURL=timer.css.map */
